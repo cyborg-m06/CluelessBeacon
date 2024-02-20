@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelessbeacon",
+  "version": "${version}",
+  "name": "CluelessBeacon",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cyborg_m_06/CluelessBeacon"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cluelessbeacon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.m06.cluelessbeacon.CluelessBeacon"
+    ]
+  },
+  "mixins": [
+    "cluelessbeacon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
