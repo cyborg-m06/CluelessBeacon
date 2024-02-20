@@ -8,7 +8,7 @@
   "contact": {
     "repo": "https://github.com/cyborg_m_06/CluelessBeacon"
   },
-  "license": "All-Rights-Reserved",
+  "license": "unlicense",
   "icon": "assets/cluelessbeacon/icon.png",
   "environment": "*",
   "entrypoints": {
